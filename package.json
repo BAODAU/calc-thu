@@ -21,6 +21,6 @@
     "claudia-bot-builder": "^2.15.0",
     "fb-messenger": "^1.1.0",
     "huh": "^2.0.1",
-      "xml2js":"^0.4.17"  
+	"wolfram-alpha": "^0.6.0"  
   }
 }
