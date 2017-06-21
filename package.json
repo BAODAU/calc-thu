@@ -2,9 +2,9 @@
   "name": "calc-thu",
   "version": "1.0.0",
   "description": "Claudia.js used to deploy math chat bot",
-  "main": "bot.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tap test/*.js"
   },
     "author": {
 	"name" : "Bảo Đậu",
