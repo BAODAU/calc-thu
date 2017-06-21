@@ -35,4 +35,6 @@
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-Thumbs.dbB
+Thumbs.dbBB
+node_modules
+claudia.json

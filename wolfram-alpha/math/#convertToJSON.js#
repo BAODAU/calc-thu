@@ -1,0 +1,6 @@
+'use strict'
+
+const rp = require('minimal-request-promise')
+const fbTemplate = require('claudia-bot-builder').fbTemplate
+
+functio
