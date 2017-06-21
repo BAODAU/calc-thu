@@ -11,12 +11,13 @@
 	"email": "hi@dauquocbao.me",
 	"url" : "http://dauquocbao.me"
     },
-    "license":
-    {
-	"type" : "ISC",
-	"url": "https://opensource.org/licenses/ISC"
+    "contributors" : "",
+    "repository" : {
+	"type" : "git",
+	"url" : "https://github.com/BAODAU/calc-thu.git"
     },
-  "dependencies": {
+    "license": "MIT",
+    "dependencies": {
     "claudia-bot-builder": "^2.15.0",
     "fb-messenger": "^1.1.0",
     "huh": "^2.0.1",
