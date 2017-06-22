@@ -2,25 +2,26 @@
   "name": "calc-thu",
   "version": "1.0.0",
   "description": "Claudia.js used to deploy math chat bot",
+  "homepage": "https://github.com/BAODAU/calc-thu",
   "main": "index.js",
   "scripts": {
     "test": "bndg test/*.test.js"
   },
-    "author": {
-	"name" : "Bảo Đậu",
-	"email": "hi@dauquocbao.me",
-	"url" : "http://dauquocbao.me"
-    },
-    "contributors" : "",
-    "repository" : {
-	"type" : "git",
-	"url" : "https://github.com/BAODAU/calc-thu.git"
-    },
-    "license": "MIT",
-    "dependencies": {
+  "author": {
+    "name": "Bảo Đậu",
+    "email": "hi@dauquocbao.me",
+    "url": "http://dauquocbao.me"
+  },
+  "contributors": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BAODAU/calc-thu.git"
+  },
+  "license": "MIT",
+  "dependencies": {
     "claudia-bot-builder": "^2.15.0",
     "fb-messenger": "^1.1.0",
     "huh": "^2.0.1",
-	"wolfram-alpha": "^0.6.0"  
+    "wolfram-alpha": "^0.6.0"
   }
 }

@@ -1,4 +1,4 @@
-var wolfram = require('wolfram-alpha').createClient("DEMO", opts);
+var wolfram = require('wolfram-alpha').createClient("LY3LHG-K4QXJ737HJ");
  
-var results = yield wolfram.query("integrate 2x")
-console.log("Result: %j", results);
+var results = wolfram.query("integrate 2x")
+console.log("Result: %j",results);
