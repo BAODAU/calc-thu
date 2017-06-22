@@ -4,7 +4,7 @@
   "description": "Claudia.js used to deploy math chat bot",
   "main": "index.js",
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "bndg test/*.test.js"
   },
     "author": {
 	"name" : "Bảo Đậu",
