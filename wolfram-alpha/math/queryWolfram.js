@@ -1,4 +1,6 @@
-var wolfram = require('wolfram-alpha').createClient("LY3LHG-K4QXJ737HJ");
- 
-var results = wolfram.query("integrate 2x")
-console.log("Result: %j",results);
+var wolfram = require('wolfram').createClient("LY3LHG-K4QXJ737HJ")
+
+wolfram.query("e^x from 1 to e", function(err, result) {
+    if (err) throw err
+    console.log("Result: %j", result)
+})
