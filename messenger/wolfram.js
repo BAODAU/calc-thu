@@ -1,6 +1,8 @@
-var wolfram = require('wolfram').createClient('LY3LHG-K4QXJ737HJ')
+var fileIO = require('./file.json')
+var fs = require('fs')
 
-wolfram.query("integrate 2x", function(err, result) {
-    if (err) throw err
-    console.log("Result: %j", result)
-})
+fs.readFile('./file.json' , function(err,data) {
+    if (err) throw err;
+    var obj = JSON.parse(data);
+    console.log(obj.date)
+});

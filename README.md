@@ -1,7 +1,4 @@
 # Calc Thủ
-[![Build Status](https://travis-ci.org/BAODAU/calc-thu.svg?branch=master)](https://travis-ci.org/BAODAU/calc-thu)
 [![Coverage Status](https://coveralls.io/repos/github/BAODAU/calc-thu/badge.svg?branch=master)](https://coveralls.io/github/BAODAU/calc-thu?branch=master)    
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BAODAU/calc-thu/blob/master/LICENSE.md)
 Messenger bot dùng API của Wolfram Alpha để trả lời câu hỏi của người dùng.
-
-# License
-[MIT LICENSE (MIT)](/LICENSE.md)

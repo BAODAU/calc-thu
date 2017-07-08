@@ -3,7 +3,7 @@
 
 const viewSource = require('./viewSource')
 const showExample = require('./showExample')
-
+const queryWolfram = require('./queryWolfram')
 
 function botFlow(request, originalApiRequest) {
     console.log(JSON.stringify(request))
@@ -14,8 +14,8 @@ function botFlow(request, originalApiRequest) {
     }
 
 	if (request.text === 'QUERY') {
-    //todo: take the query and POST it to wolfram alpha
-
+	    //todo: take the query and POST it to wolfram alpha, if the answer is ambiguous, try returning assumptions until use post ACCEPT 
+	    return queryWolfram()
 	}
 	if (request.text === 'CODE') {
 	//todo: redirect to github repo

@@ -17,4 +17,14 @@ function greeting(sender, facebookAccessToker) {
 	})
 }
 
-module.exports = greeting
+function waitTime() {
+    return new fbTemplate
+	.ChatAction('mark_seen')
+	.ChatAction('typing_on')
+	.get()
+}
+
+module.exports = {
+    waitTime
+    greeting
+}
