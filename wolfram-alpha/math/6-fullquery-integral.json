@@ -1,0 +1,45 @@
+[{
+  "title": "Indefinite integral",
+  "subpods": [{
+    "title": "",
+    "value": " integral (2 x + 1)/(x + 2) dx = 2 x - 3 log(x + 2) + 4 + constant",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24091i6985g6d88189h200003h5ieabc774394hh?MSPStoreType=image/gif&s=63"
+  }],
+  "primary": true
+}, {
+  "title": "Plots of the integral",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24111i6985g6d88189h2000063hf18h8b678024d?MSPStoreType=image/gif&s=63"
+  }, {
+    "title": "",
+    "value": "",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24121i6985g6d88189h200003h126ceei6g7b22b?MSPStoreType=image/gif&s=63"
+  }],
+  "primary": false
+}, {
+  "title": "Alternate form of the integral",
+  "subpods": [{
+    "title": "",
+    "value": "2 (x + 2) - 3 log(x + 2) + constant",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24131i6985g6d88189h20000593ie1ebbf8b83g8?MSPStoreType=image/gif&s=63"
+  }],
+  "primary": false
+}, {
+  "title": "Series expansion of the integral at x=0",
+  "subpods": [{
+    "title": "",
+    "value": "(4 - log(8)) + x/2 + (3 x^2)/8 - x^3/8 + (3 x^4)/64 - (3 x^5)/160 + O(x^6)\n(Taylor series)",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24141i6985g6d88189h200003heigaiib83dc4h1?MSPStoreType=image/gif&s=63"
+  }],
+  "primary": false
+}, {
+  "title": "Series expansion of the integral at x=∞",
+  "subpods": [{
+    "title": "",
+    "value": "2 x + (3 log(1/x) + 4) - 6/x + 6/x^2 - 8/x^3 + 12/x^4 - 96/(5 x^5) + O((1/x)^6)\n(generalized Puiseux series)",
+    "image": "http://www5a.wolframalpha.com/Calculate/MSP/MSP24151i6985g6d88189h20000464h3fcb2hc82agi?MSPStoreType=image/gif&s=63"
+  }],
+  "primary": false
+}]

@@ -1,0 +1,33 @@
+[{
+  "title": "Definite integral",
+  "subpods": [{
+    "title": "",
+    "value": " integral_1^e e^x  dx = e^e - e~~12.436",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP5001hf2afc00i5ff68300002d312f2i57hh8606?MSPStoreType=image/gif&s=42"
+  }],
+  "primary": true
+}, {
+  "title": "Visual representation of the integral",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP5011hf2afc00i5ff683000059cfcc49h00793ae?MSPStoreType=image/gif&s=42"
+  }],
+  "primary": false
+}, {
+  "title": "Riemann sums",
+  "subpods": [{
+    "title": "",
+    "value": "left sum | -((e - 1) (e^e - e) e^(1/n))/((e^(1/n) - e^(e/n)) n) = (e^e - e) - ((e - 1) (e^e - e))/(2 n) + O((1/n)^2)\n(assuming subintervals of equal length)",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP5021hf2afc00i5ff683000054ffcbdce0eb0819?MSPStoreType=image/gif&s=42"
+  }],
+  "primary": false
+}, {
+  "title": "Indefinite integral",
+  "subpods": [{
+    "title": "",
+    "value": " integral e^x  dx = e^x + constant",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP5031hf2afc00i5ff68300005290g53i7i41eh10?MSPStoreType=image/gif&s=42"
+  }],
+  "primary": false
+}]

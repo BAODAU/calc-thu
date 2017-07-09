@@ -1,0 +1,121 @@
+[{
+  "title": "Input",
+  "subpods": [{
+    "title": "",
+    "value": "x^3 + 3 x^2 + 2 x - 1",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7241iaeh4731055d69i000047eiebc025d2i06g?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Plots",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7251iaeh4731055d69i00005gfc40baieee0b2d?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "",
+    "value": "",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7261iaeh4731055d69i0000323d7f77g3d59id6?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Alternate forms",
+  "subpods": [{
+    "title": "",
+    "value": "x (x + 1) (x + 2) - 1",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7271iaeh4731055d69i000055448hfd6ge5bab4?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "",
+    "value": "(x + 1)^3 - x - 2",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7281iaeh4731055d69i0000598i678fcc1e37ei?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "",
+    "value": "x (x (x + 3) + 2) - 1",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7291iaeh4731055d69i000037991he97igb08f5?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Real root",
+  "subpods": [{
+    "title": "",
+    "value": "x~~0.32472",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7301iaeh4731055d69i000012g70630g59b504g?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": true
+}, {
+  "title": "Complex roots",
+  "subpods": [{
+    "title": "",
+    "value": "x~~-1.6624 + 0.5623 i",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7311iaeh4731055d69i000015d4107d398d03b8?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "",
+    "value": "x~~-1.6624 - 0.5623 i",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7321iaeh4731055d69i00000dh83e31ga6fc54b?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": true
+}, {
+  "title": "Roots in the complex plane",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7331iaeh4731055d69i00001i5h083e970bb875?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Polynomial discriminant",
+  "subpods": [{
+    "title": "",
+    "value": "Delta = -23",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7341iaeh4731055d69i0000305af2490icgd057?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Properties as a real function",
+  "subpods": [{
+    "title": "Domain",
+    "value": "R  (all real numbers)",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7351iaeh4731055d69i000038367i4f3fc90006?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "Range",
+    "value": "R  (all real numbers)",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7361iaeh4731055d69i00004acgbbid08c52ceh?MSPStoreType=image/gif&s=57"
+  }, {
+    "title": "Surjectivity",
+    "value": "surjective  onto R",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7371iaeh4731055d69i00003eicc0165ic1bdbg?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Derivative",
+  "subpods": [{
+    "title": "",
+    "value": "d/dx(x^3 + 3 x^2 + 2 x - 1) = 3 x^2 + 6 x + 2",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7391iaeh4731055d69i0000563chh3c25a58ag4?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Indefinite integral",
+  "subpods": [{
+    "title": "",
+    "value": " integral (-1 + 2 x + 3 x^2 + x^3) dx = x^4/4 + x^3 + x^2 - x + constant",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7401iaeh4731055d69i0000511bcbg9aicca4be?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": true
+}, {
+  "title": "Local maximum",
+  "subpods": [{
+    "title": "",
+    "value": "max{x^3 + 3 x^2 + 2 x - 1} = 2/(3 sqrt(3)) - 1 at x = -1 - 1/sqrt(3)",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7411iaeh4731055d69i00000g4c318024hc28cf?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}, {
+  "title": "Local minimum",
+  "subpods": [{
+    "title": "",
+    "value": "min{x^3 + 3 x^2 + 2 x - 1} = -1 - 2/(3 sqrt(3)) at x = 1/sqrt(3) - 1",
+    "image": "http://www4c.wolframalpha.com/Calculate/MSP/MSP7421iaeh4731055d69i00004e618gc68h4gi39d?MSPStoreType=image/gif&s=57"
+  }],
+  "primary": false
+}]

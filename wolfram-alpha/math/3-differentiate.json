@@ -1,0 +1,25 @@
+[{
+  "title": "Input interpretation",
+  "subpods": [{
+    "title": "",
+    "value": "(de^x)/(dx) where x = 2",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10731f275257g08g40cc00002bc4i1h75062f0ei?MSPStoreType=image/gif&s=32"
+  }],
+  "primary": false
+}, {
+  "title": "Result",
+  "subpods": [{
+    "title": "",
+    "value": "e^2~~7.38906",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10741f275257g08g40cc0000199919h0c08d66i5?MSPStoreType=image/gif&s=32"
+  }],
+  "primary": true
+}, {
+  "title": "Plot",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10751f275257g08g40cc00001fe84775f9iefea4?MSPStoreType=image/gif&s=32"
+  }],
+  "primary": false
+}]

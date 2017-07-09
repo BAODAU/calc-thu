@@ -1,0 +1,25 @@
+[{
+  "title": "Input interpretation",
+  "subpods": [{
+    "title": "",
+    "value": "(d(x^76 + e^x))/(dx) where x = 2",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10911ie0450h137hc3d400005gci47h3abdi70gg?MSPStoreType=image/gif&s=18"
+  }],
+  "primary": false
+}, {
+  "title": "Result",
+  "subpods": [{
+    "title": "",
+    "value": "2871198821584744289927168 + e^2~~2.8712×10^24",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10921ie0450h137hc3d400003e7ai830e60i2cf3?MSPStoreType=image/gif&s=18"
+  }],
+  "primary": true
+}, {
+  "title": "Plot",
+  "subpods": [{
+    "title": "",
+    "value": "",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP10931ie0450h137hc3d4000064b2gg919d6fe999?MSPStoreType=image/gif&s=18"
+  }],
+  "primary": false
+}]

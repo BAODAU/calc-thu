@@ -1,0 +1,53 @@
+[{
+  "title": "Input interpretation",
+  "subpods": [{
+    "title": "",
+    "value": "solve y'(x) = 2 x^2  for  y",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP3981bd3736181bi75i500001a468a8gg2fagg55?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": false
+}, {
+  "title": "ODE names",
+  "subpods": [{
+    "title": "Separable equation",
+    "value": "y'(x) = 2 x^2",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP3991bd3736181bi75i500005d5fbf1ab95f63e0?MSPStoreType=image/gif&s=39"
+  }, {
+    "title": "Exact equation",
+    "value": "-2 x^2  dx +  dy = 0",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP4001bd3736181bi75i5000066c5g4fbd3901d77?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": false
+}, {
+  "title": "ODE classification",
+  "subpods": [{
+    "title": "",
+    "value": "first-order linear ordinary differential equation",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP4011bd3736181bi75i5000069i6c9cbdd98bhd6?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": false
+}, {
+  "title": "Differential equation solution",
+  "subpods": [{
+    "title": "",
+    "value": "y(x) = c_1 + (2 x^3)/3",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP4021bd3736181bi75i500002egbcigabgdi1fh3?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": true
+}, {
+  "title": "Plots of sample individual solution",
+  "subpods": [{
+    "title": "",
+    "value": " |   |  |   | y(0) = 1",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP4031bd3736181bi75i5000056ede22294b929a9?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": false
+}, {
+  "title": "Sample solution family",
+  "subpods": [{
+    "title": "",
+    "value": "  (sampling y(0))",
+    "image": "http://www3.wolframalpha.com/Calculate/MSP/MSP4041bd3736181bi75i500001d800f9a6acfhgd3?MSPStoreType=image/gif&s=39"
+  }],
+  "primary": false
+}]
