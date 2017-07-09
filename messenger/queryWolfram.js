@@ -1,9 +1,12 @@
 'use strict'
-var APIKEY = proces.env.WOLFRAMKEY;
+var APIKEY = process.env.WOLFRAMKEY;
 
-const rp = require('minimal-request-promise')
-const wolfram = require('wolfram').createClient(WOLFRAMKEY)
+const fbTemplate = require('claudia-bot-builder').fbTemplate
 
-function queryWolfram(request, originalApiRequest) {
-    
+function queryWolfram() {
+  return new fbTemplate.Text()
+    .addQuickReply("I will use " + APIKEY + "to process wolframalpha")
+    .get()
 }
+
+module.exports = queryWolfram

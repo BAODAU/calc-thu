@@ -2,5 +2,10 @@
 'use strict'
 
 const botBuilder = require('claudia-bot-builder');
-const fbTemplate = botBuilder.fbTemplate;
+const botFlow = require('./messenger/botFlow');
 
+const api = botBuilder(botFlow, {
+    platforms: ['facebook']
+});
+
+module.exports = api

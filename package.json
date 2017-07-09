@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Claudia.js used to deploy math chat bot",
   "homepage": "https://github.com/BAODAU/calc-thu",
-  "main": "index.js",
-  "scripts": {
-    "test": "bndg test/*.test.js"
-  },
+  "main": "bot.js",
   "author": {
     "name": "Bảo Đậu",
     "email": "hi@dauquocbao.me",
