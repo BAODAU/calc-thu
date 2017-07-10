@@ -1,14 +1,19 @@
 'use strict'
 //todo: add modules
 
-const viewSource = require('./viewSource')
-const showExample = require('./showExample')
-const queryWolfram = require('./queryWolfram')
+//const viewSource = require('./viewSource')
+//const showExample = require('./showExample')
+//const queryWolfram = require('./queryWolfram')
+const greeting = require('./greeting')
 
 function botFlow(request, originalApiRequest) {
+    console.log(JSON.stringify(request))
     originalApiRequest.lambdaContext.callbackWaitsForEmptyEventLoop = false
 
-    if (request.text === 'EXAMPLE') {
+    //if (request.text === 'HELLO')
+        return greeting(request.sender, originalApiRequest.env.facebookAccessToken)
+
+/*    if (request.text === 'EXAMPLE') {
 	return showExample()
     }
 
@@ -20,5 +25,6 @@ function botFlow(request, originalApiRequest) {
 	//todo: redirect to github repo
 	return viewSource()
     }
+*/
 }
 module.exports = botFlow

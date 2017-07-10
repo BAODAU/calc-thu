@@ -16,11 +16,11 @@
   },
   "license": "MIT",
   "dependencies": {
-    "claudia-bot-builder": "^2.15.0",
     "fb-messenger": "^1.1.0",
     "fs": "0.0.1-security",
     "huh": "^2.0.1",
     "minimal-request-promise": "^1.4.0",
-    "wolfram": "^0.3.4"
+      "wolfram": "^0.3.4",
+      "claudia-bot-builder": "^2.15.0"
   }
 }

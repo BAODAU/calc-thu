@@ -1,0 +1,14 @@
+'use strict'
+
+var WOLFRAMKEY = process.env.WOLFRAMKEY;
+
+const rp = require('minimal-request-promise')
+const wolfram = require('wolfram').createClient(WOLFRAMKEY)
+
+var input = wolfram.query() {
+    
+}
+
+function queryWolfram(request, originalApiRequest) {
+    
+}

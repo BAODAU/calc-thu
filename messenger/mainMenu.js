@@ -19,6 +19,6 @@ function waitTime() {
 }
 
 module.exports = {
-    waitTime
+//    waitTime,
     mainMenu
 }
