@@ -8,7 +8,7 @@ function viewSource() {
     return generic
 	.addBubble('Xem mã nguồn mở trên Github', 'Warning: Graphic, You are about to see really messy spaghetti code')
 	.addUrl('https://github.com/BAODAU/calc-thu/')
-	.addImage('https://github.com/BAODAU/calc-thu/blob/master/assets/img/calculus.jpg')
+	.addImage('https://raw.githubusercontent.com/BAODAU/calc-thu/master/assets/img/calculus.jpg')
 	.get();
 }
 

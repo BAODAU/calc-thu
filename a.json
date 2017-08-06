@@ -1,0 +1,180 @@
+{
+  "queryresult": {
+      "success": true,
+      "error": false,
+      "numpods": 5,
+      "datatypes": "City,Weather",
+      "timedout": "Data,Character",
+      "timedoutpods": "",
+      "timing": 4.075,
+      "parsetiming": 0.156,
+      "parsetimedout": false,
+      "recalculate": "https://www4d.wolframalpha.com/api/v2/recalc.jsp?id=MSPa1981219d9416i16a4ead00000e27123bh9c0759b6128341348572469259&output=JSON",
+      "id": "MSPa1982219d9416i16a4ead000017hf4295021066f8",
+      "host": "https://www4d.wolframalpha.com",
+      "server": "31",
+      "related": "https://www4d.wolframalpha.com/api/v2/relatedQueries.jsp?id=MSPa1983219d9416i16a4ead0000215135fh579a21fa6128341348572469259",
+      "version": "2.6",
+      "pods": [
+          {
+              "title": "Input interpretation",
+              "scanner": "Identity",
+              "id": "Input",
+              "position": 100,
+              "error": false,
+              "numsubpods": 1,
+              "subpods": [
+                  {
+                      "title": "",
+                      "img": {
+                          "src": "https://www4d.wolframalpha.com/Calculate/MSP/MSP1984219d9416i16a4ead000017e7b6dd7e92hc1e?MSPStoreType=image/gif&s=31",
+                          "alt": "weather",
+                          "title": "weather",
+                          "width": 69,
+                          "height": 23
+                      },
+                      "plaintext": "weather"
+                  }
+              ]
+          },
+          {
+              "title": "Latest recorded weather for Ho Chi Minh City, Vietnam",
+              "scanner": "Data",
+              "id": "InstantaneousWeather:WeatherData",
+              "position": 200,
+              "error": false,
+              "numsubpods": 1,
+              "primary": true,
+              "subpods": [
+                  {
+                      "title": "",
+                      "img": {
+                          "src": "https://www4d.wolframalpha.com/Calculate/MSP/MSP1985219d9416i16a4ead00004f064469e5d5g013?MSPStoreType=image/gif&s=31",
+                          "alt": "temperature | 29 °C  (heat index: 37 °C)\nconditions | few clouds\nrelative humidity | 89%  (dew point: 27 °C)\nwind speed | 5.1 m/s\n(47 minutes ago)",
+                          "title": "temperature | 29 °C  (heat index: 37 °C)\nconditions | few clouds\nrelative humidity | 89%  (dew point: 27 °C)\nwind speed | 5.1 m/s\n(47 minutes ago)",
+                          "width": 318,
+                          "height": 153
+                      },
+                      "plaintext": "temperature | 29 °C  (heat index: 37 °C)\nconditions | few clouds\nrelative humidity | 89%  (dew point: 27 °C)\nwind speed | 5.1 m/s\n(47 minutes ago)"
+                  }
+              ],
+              "states": [
+                  {
+                      "name": "Show non‐metric",
+                      "input": "InstantaneousWeather:WeatherData__Show non‐metric"
+                  },
+                  {
+                      "name": "More",
+                      "input": "InstantaneousWeather:WeatherData__More"
+                  }
+              ],
+              "infos": {
+                  "units": [
+                      {
+                          "short": "m/s",
+                          "long": "meters per second"
+                      },
+                      {
+                          "src": "https://www4d.wolframalpha.com/Calculate/MSP/MSP1986219d9416i16a4ead000027g0gf3g4h75b535?MSPStoreType=image/gif&s=31",
+                          "width": "171",
+                          "height": "26"
+                      }
+                  ]
+              }
+          },
+          {
+              "title": "Weather forecast for Ho Chi Minh City, Vietnam",
+              "scanner": "Data",
+              "id": "WeatherForecast:WeatherData",
+              "position": 300,
+              "error": false,
+              "numsubpods": 2,
+              "primary": true,
+              "subpods": [
+                  {
+                      "title": "Today",
+                      "img": {
+                          "src": "https://www4d.wolframalpha.com/Calculate/MSP/MSP1987219d9416i16a4ead00002e8i3651ei0a8fgb?MSPStoreType=image/gif&s=31",
+                          "alt": "between 25 °C and 29 °C\nclear (all day)  |  rain (late morning to late afternoon)",
+                          "title": "between 25 °C and 29 °C\nclear (all day)  |  rain (late morning to late afternoon)",
+                          "width": 379,
+                          "height": 64
+                      },
+                      "plaintext": "between 25 °C and 29 °C\nclear (all day)  |  rain (late morning to late afternoon)"
+                  },
+                  {
+                      "title": "Tonight",
+                      "img": {
+                          "src": "https://www4d.wolframalpha.com/Calculate/MSP/MSP1988219d9416i16a4ead000034d7if41654a8ff2?MSPStoreType=image/gif&s=31",
+                          "alt": "between 24 °C and 26 °C\nclear (all night)  |  rain (late night onward)",
+                          "title": "between 24 °C and 26 °C\nclear (all night)  |  rain (late night onward)",
+                          "width": 307,
+                          "height": 64
+                      },
+                      "plaintext": "between 24 °C and 26 °C\nclear (all night)  |  rain (late night onward)"
+                  }
+              ],
+              "states": [
+                  {
+                      "name": "Show non‐metric",
+                      "input": "WeatherForecast:WeatherData__Show non‐metric"
+                  },
+                  {
+                      "name": "More days",
+                      "input": "WeatherForecast:WeatherData__More days"
+                  },
+                  {
+                      "name": "More details",
+                      "input": "WeatherForecast:WeatherData__More details"
+                  }
+              ]
+          },
+          {
+              "title": "Weather history & forecast",
+              "scanner": "Data",
+              "id": "WeatherCharts:WeatherData",
+              "position": 400,
+              "error": false,
+              "numsubpods": 0,
+              "async": "https://www4d.wolframalpha.com/api/v2/asyncPod.jsp?id=MSPa1989219d9416i16a4ead00005907i3i8b2icc82c6128341348572469259"
+          },
+          {
+              "title": "Historical temperatures for July 16",
+              "scanner": "Data",
+              "id": "HistoricalTemperature:WeatherData",
+              "position": 500,
+              "error": false,
+              "numsubpods": 0,
+              "async": "https://www4d.wolframalpha.com/api/v2/asyncPod.jsp?id=MSPa1990219d9416i16a4ead00005fhici8c1fdc73ih6128341348572469259"
+          }
+      ],
+      "assumptions": {
+          "type": "Clash",
+          "word": "weather",
+          "template": "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+          "count": 2,
+          "values": [
+              {
+                  "name": "WeatherWord",
+                  "desc": "a weather query",
+                  "input": "*C.weather-_*WeatherWord-"
+              },
+              {
+                  "name": "Word",
+                  "desc": "a word",
+                  "input": "*C.weather-_*Word-"
+              }
+          ]
+      },
+      "sources": [
+          {
+              "url": "https://www.wolframalpha.com/sources/WeatherDataSourceInformationNotes.html",
+              "text": "Weather data"
+          },
+          {
+              "url": "https://www.wolframalpha.com/sources/WeatherForecastDataSourceInformationNotes.html",
+              "text": "Weather forecast data"
+          }
+      ]
+  }
+}

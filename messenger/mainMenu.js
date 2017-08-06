@@ -5,20 +5,10 @@ const fbTemplate = botBuilder.fbTemplate;
 
 function mainMenu() {
     return new fbTemplate.Button('Đây là những gì bạn làm được')
-	.addButton('Xem hướng dẫn sử dụng trước khi dùng', 'EXAMPLE')
-  .addButton('Nhập phương trình luôn', 'QUERY')
-	.addButton('Xem mã nguồn', 'CODE')
+	.addButton('Hướng dẫn sử dụng', 'EXAMPLE-BUTTON')
+  .addButton('Nhập phương trình', 'QUERY-BUTTON')
+	.addButton('Xem mã nguồn', 'CODE-BUTTON')
 	.get()
 }
 
-function waitTime() {
-    return new fbTemplate
-	.ChatAction('mark_seen')
-	.ChatAction('typing_on')
-	.get()
-}
-
-module.exports = {
-//    waitTime,
-    mainMenu
-}
+module.exports = mainMenu
