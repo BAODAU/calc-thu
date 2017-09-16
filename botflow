@@ -1,0 +1,14 @@
+const botBuilder = require('claudia-bot-builder');
+const fbTemplate = botBuilder.fbTemplate;
+
+module.exports = botBuilder(message => {
+  if (message.type === 'facebook') {
+    const newMessage = new fbTemplate.Text('Hi, How are you doing?');
+    return  newMessage
+	.addQuickReply('Awesome','AWESOME')
+	.addQuickReply('Good', 'GOOD')
+	.addQuickReply('Mediocre', 'MEDIOCRE)
+	.addQuickReply('Not so good','bad')
+	.get();
+   }
+});
