@@ -11,9 +11,8 @@ const mainMenu = require('./mainMenu')
 
 function botFlow(request, originalApiRequest) {
     console.log("REQUEST: " + request.body);
-    //console.log("ORIGINAL: " + JSON.parse(originalApiRequest));
+    console.log("ORIGINAL: " + JSON.parse(originalApiRequest));
 
-    var returnValue = null;
     originalApiRequest.lambdaContext.callbackWaitsForEmptyEventLoop = false
 
     if (request.text === 'GET_STARTED_PAYLOAD')
@@ -34,8 +33,6 @@ function botFlow(request, originalApiRequest) {
     	//todo: redirect to github repo
     	returnValue = viewSource()
         }
-      lastChat = request.text;
-      return returnValue;
 }
 
 module.exports = botFlow

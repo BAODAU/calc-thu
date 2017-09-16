@@ -1,0 +1,160 @@
+{"queryresult" : {
+  "success" : true,
+  "error" : false,
+  "numpods" : 3,
+  "datatypes" : "City,Weather",
+  "timedout" : "Data,Character",
+  "timedoutpods" : "",
+  "timing" : 3.923,
+  "parsetiming" : 0.10400000000000001,
+  "parsetimedout" : false,
+  "recalculate" : "https:\/\/www3.wolframalpha.com\/api\/v2\/recalc.jsp?id=MSPa16361g1bef3giiff499400000ca7913ba34349bd&s=10&output=JSON",
+  "id" : "MSPa16371g1bef3giiff49940000432cci186hb3gfgh",
+  "host" : "https:\/\/www3.wolframalpha.com",
+  "server" : "10",
+  "related" : "https:\/\/www3.wolframalpha.com\/api\/v2\/relatedQueries.jsp?id=MSPa16381g1bef3giiff499400001cc5856cc6a4iea1&s=10",
+  "version" : "2.6",
+  "pods" : [
+    {
+      "title" : "Input interpretation",
+      "scanner" : "Identity",
+      "id" : "Input",
+      "position" : 100,
+      "error" : false,
+      "numsubpods" : 1,
+      "subpods" : [
+        {
+          "title" : "",
+          "img" : {
+            "src" : "https:\/\/www3.wolframalpha.com\/Calculate\/MSP\/MSP16391g1bef3giiff499400005gfc24311ibe3h5i?MSPStoreType=image\/gif&s=10",
+            "alt" : "weather",
+            "title" : "weather",
+            "width" : 69,
+            "height" : 23
+          },
+          "plaintext" : "weather"
+        }
+      ]
+    },
+    {
+      "title" : "Latest recorded weather for Lafayette, Indiana",
+      "scanner" : "Data",
+      "id" : "InstantaneousWeather:WeatherData",
+      "position" : 200,
+      "error" : false,
+      "numsubpods" : 1,
+      "primary" : true,
+      "subpods" : [
+        {
+          "title" : "",
+          "img" : {
+            "src" : "https:\/\/www3.wolframalpha.com\/Calculate\/MSP\/MSP16401g1bef3giiff499400005e3ha5bb3970f407?MSPStoreType=image\/gif&s=10",
+            "alt" : "temperature | 84 °F  (heat index: 85 °F)\nconditions | cloudy\nrelative humidity | 46%  (dew point: 61 °F)\nwind speed | 8.1 mph\n(26 minutes ago)",
+            "title" : "temperature | 84 °F  (heat index: 85 °F)\nconditions | cloudy\nrelative humidity | 46%  (dew point: 61 °F)\nwind speed | 8.1 mph\n(26 minutes ago)",
+            "width" : 318,
+            "height" : 153
+          },
+          "plaintext" : "temperature | 84 °F  (heat index: 85 °F)\nconditions | cloudy\nrelative humidity | 46%  (dew point: 61 °F)\nwind speed | 8.1 mph\n(26 minutes ago)"
+        }
+      ],
+      "states" : [
+        {
+          "name" : "Show metric",
+          "input" : "InstantaneousWeather:WeatherData__Show metric"
+        },
+        {
+          "name" : "More",
+          "input" : "InstantaneousWeather:WeatherData__More"
+        }
+      ],
+      "infos" : {
+        "units" : [
+          {
+            "short" : "mph",
+            "long" : "miles per hour"
+          },
+          {
+            "src" : "https:\/\/www3.wolframalpha.com\/Calculate\/MSP\/MSP16411g1bef3giiff4994000020618i31c21gd039?MSPStoreType=image\/gif&s=10",
+            "width" : "149",
+            "height" : "26"
+          }
+        ]
+      }
+    },
+    {
+      "title" : "Weather forecast for Lafayette, Indiana",
+      "scanner" : "Data",
+      "id" : "WeatherForecast:WeatherData",
+      "position" : 300,
+      "error" : false,
+      "numsubpods" : 2,
+      "primary" : true,
+      "subpods" : [
+        {
+          "title" : "Today",
+          "img" : {
+            "src" : "https:\/\/www3.wolframalpha.com\/Calculate\/MSP\/MSP16421g1bef3giiff4994000038gd0hgddde9442g?MSPStoreType=image\/gif&s=10",
+            "alt" : "between 63 °F and 82 °F\nclear (all day)  |  rain (mid-afternoon onward)",
+            "title" : "between 63 °F and 82 °F\nclear (all day)  |  rain (mid-afternoon onward)",
+            "width" : 340,
+            "height" : 64
+          },
+          "plaintext" : "between 63 °F and 82 °F\nclear (all day)  |  rain (mid-afternoon onward)"
+        },
+        {
+          "title" : "Tonight",
+          "img" : {
+            "src" : "https:\/\/www3.wolframalpha.com\/Calculate\/MSP\/MSP16431g1bef3giiff4994000057cf168d1h4a22gf?MSPStoreType=image\/gif&s=10",
+            "alt" : "between 64 °F and 73 °F\nrain (evening to late night)  |  clear (all night)",
+            "title" : "between 64 °F and 73 °F\nrain (evening to late night)  |  clear (all night)",
+            "width" : 329,
+            "height" : 64
+          },
+          "plaintext" : "between 64 °F and 73 °F\nrain (evening to late night)  |  clear (all night)"
+        }
+      ],
+      "states" : [
+        {
+          "name" : "Show metric",
+          "input" : "WeatherForecast:WeatherData__Show metric"
+        },
+        {
+          "name" : "More days",
+          "input" : "WeatherForecast:WeatherData__More days"
+        },
+        {
+          "name" : "More details",
+          "input" : "WeatherForecast:WeatherData__More details"
+        }
+      ]
+    }
+  ],
+  "assumptions" : {
+    "type" : "Clash",
+    "word" : "weather",
+    "template" : "Assuming \"${word}\" is ${desc1}. Use as ${desc2} instead",
+    "count" : 2,
+    "values" : [
+      {
+        "name" : "WeatherWord",
+        "desc" : "a weather query",
+        "input" : "*C.weather-_*WeatherWord-"
+      },
+      {
+        "name" : "Word",
+        "desc" : "a word",
+        "input" : "*C.weather-_*Word-"
+      }
+    ]
+  },
+  "sources" : [
+    {
+      "url" : "https:\/\/www.wolframalpha.com\/sources\/WeatherDataSourceInformationNotes.html",
+      "text" : "Weather data"
+    },
+    {
+      "url" : "https:\/\/www.wolframalpha.com\/sources\/WeatherForecastDataSourceInformationNotes.html",
+      "text" : "Weather forecast data"
+    }
+  ]
+}}
