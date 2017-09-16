@@ -11,8 +11,9 @@ const mainMenu = require('./mainMenu')
 
 function botFlow(request, originalApiRequest) {
     console.log("REQUEST: " + request.body);
-    console.log("ORIGINAL: " + JSON.parse(originalApiRequest));
+    //console.log("ORIGINAL: " + JSON.parse(originalApiRequest));
 
+    var returnValue = null;
     originalApiRequest.lambdaContext.callbackWaitsForEmptyEventLoop = false
 
     if (request.text === 'GET_STARTED_PAYLOAD')
@@ -22,10 +23,10 @@ function botFlow(request, originalApiRequest) {
     	returnValue = showExample()
         }
 
-    if (lastChat === 'QUERY_BUTTON') {
+    if (request.text === 'QUERY_BUTTON') {
         returnValue = [
-          new fbTemplate.Text("I'll give you an equation").get(),
-          queryWolfram(request.text)
+          new fbTemplate.Text("Enter something").get(),
+          queryWolfram(request.value)
         ]
         }
 
@@ -33,6 +34,7 @@ function botFlow(request, originalApiRequest) {
     	//todo: redirect to github repo
     	returnValue = viewSource()
         }
+      return returnValue;
 }
 
 module.exports = botFlow
