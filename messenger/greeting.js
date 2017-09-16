@@ -10,9 +10,9 @@ function greeting(sender, facebookAccessToken) {
 	    const user = JSON.parse(response.body)
 	    return  [
     new fbTemplate.ChatAction('typing_on').get(),
-		`Hi, how are you?`,
+		'Hello new friend.',
     new fbTemplate.Pause(1000).get(),
-		'I hope you are doing well!`,
+		'I hope you are doing well!',
     new fbTemplate.ChatAction('typing_on').get(),
     	'How can I help you?',
 		mainMenu()
