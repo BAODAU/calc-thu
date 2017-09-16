@@ -8,4 +8,5 @@ const api = botBuilder(botFlow, {
     platforms: ['facebook']
 });
 
-module.exports = api
+
+module.exports = api;

@@ -9,8 +9,6 @@ const queryWolfram = require('./queryWolfram')
 const fbTemplate = require('claudia-bot-builder').fbTemplate
 const mainMenu = require('./mainMenu')
 
-var lastChat = '';
-
 function botFlow(request, originalApiRequest) {
     console.log("REQUEST: " + request.body);
     //console.log("ORIGINAL: " + JSON.parse(originalApiRequest));
@@ -21,18 +19,18 @@ function botFlow(request, originalApiRequest) {
     if (request.text === 'GET_STARTED_PAYLOAD')
         returnValue = greeting(request.sender, originalApiRequest.env.facebookAccessToken)
 
-    if (request.text === 'EXAMPLE-BUTTON') {
+    if (request.text === 'EXAMPLE_BUTTON') {
     	returnValue = showExample()
         }
 
-    if (lastChat === 'QUERY-BUTTON') {
+    if (lastChat === 'QUERY_BUTTON') {
         returnValue = [
-          new fbTemplate.Text("OK nhập phương  trình").get(),
+          new fbTemplate.Text("I'll give you an equation").get(),
           queryWolfram(request.text)
         ]
         }
 
-    	if (request.text === 'CODE-BUTTON') {
+    	if (request.text === 'CODE_BUTTON') {
     	//todo: redirect to github repo
     	returnValue = viewSource()
         }
