@@ -7,7 +7,7 @@
 *.o
 *.so
 *~
-.idea/*
+
 
 # Packages #
 ############
@@ -40,3 +40,4 @@ Thumbs.dbBB
 node_modules
 claudia.json
 *#
+.idea/
